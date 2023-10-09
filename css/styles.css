@@ -12,6 +12,7 @@ header{
     height: 170px;
 }
 
+/*Di seguito piccoli tweak per rendere la sezione con le immagini piú simile possibile alla foto*/
 img{
     margin-top: 20px;
 }
@@ -21,6 +22,7 @@ p{
 
 h1{
     margin-bottom: 0px;
+    font-size: xx-large;
 }
 
 h4{
@@ -32,3 +34,10 @@ h4{
     padding: 0px;
     margin: 0px;
 }
+
+/*Aggiustamenti per la sezione Lorem*/
+
+h3{
+    font-weight: lighter;
+}
+
