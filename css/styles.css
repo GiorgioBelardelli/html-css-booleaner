@@ -35,9 +35,57 @@ h4{
     margin: 0px;
 }
 
+/*Tabella*/
+
+table, th, td{
+    border-collapse: collapse;
+    text-align: start;
+}
+
+th {
+    padding: 10px 50px;
+}
+
+thead{
+    background-color: rgb(90, 120, 240);
+    color: white;
+    padding: 0px;
+}
+
+tbody{
+    background-color: rgb(152, 200, 242);
+}
+
+#rigaBianca{
+    background-color: white;
+
+}
+
+
 /*Aggiustamenti per la sezione Lorem*/
 
 h3{
     font-weight: lighter;
 }
 
+/*Aggiustamenti per il footer*/
+
+.fotofooter{
+    background-image: url(../img/monitor.jpg);
+    width: 300px;
+    height: 200px;
+    color: whitesmoke;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 2px;
+    padding-left: 20px;
+}
+
+.fotofooter2{
+    background-image: url(../img/graph.jpg);
+    width: 300px;
+    height: 200px;
+    color: whitesmoke;
+    padding-top: 2px;
+    padding-left: 20px;
+}
